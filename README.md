@@ -4,10 +4,6 @@
 
 - Run npm install
 
-#### To run migration files
-
-- db-migrate up
-
 #### To Run project
 
 - Run npm run start
