@@ -13,10 +13,10 @@
 - npm run storybook
 
 
-add .env file contains the below line
+#### add .env file contains the below line
 
-SKIP_PREFLIGHT_CHECK=true
+- SKIP_PREFLIGHT_CHECK=true
 
-add .npmrc file contains the below line
+#### add .npmrc file contains the below line
 
-legacy-peer-deps=true
+- legacy-peer-deps=true
