@@ -1,0 +1,57 @@
+.btn_wrapper {
+    .btn {
+        border-radius: 6px;
+        font-weight: 400;
+        font-size: 16px;
+        padding: 0 20px;
+        cursor: pointer;
+        color: #fff;
+        display: inline-flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        -webkit-appearance: none;
+        border: none;
+        outline: none;
+        justify-content: center;
+
+        &:disabled {
+            background: #bebebe;
+            color: #7e7e7e;
+            cursor: default;
+        }
+    }
+
+    .standard {
+        height: 48px;
+    }
+
+    .small {
+        height: 40px;
+    }
+
+    .full_width {
+        width: 100%;
+        display: flex;
+    }
+    
+    .primary {
+        @extend .btn;
+        background: #e60000;
+
+        &:hover:not([disabled]) {
+            background: #bd0000;
+        }
+
+    }
+
+    .secondary {
+        @extend .btn;
+        background: #0d0d0d;
+        color: #fff;
+
+        &:hover:not([disabled]) {
+            background: #262626;
+        }
+
+    }
+}
