@@ -2,12 +2,12 @@
 
 #### Install package added in package.json
 
-- Run npm install
+- npm install
 
 #### To Run project
 
-- Run npm run start
+- npm run start
 
 #### To Run StoryBook
 
-- Run npm run storybook
+- npm run storybook
